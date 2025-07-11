@@ -106,7 +106,7 @@ const PostList = () => {
               />
 
               <div className="p-4">
-                <p className="text-xs text-gray-500 mb-1">
+                <p className="text-lg text-gray-500 mb-1 uppercase ">
                   {new Date(item.published_at).toLocaleDateString("id-ID", {
                     day: "numeric",
                     month: "long",

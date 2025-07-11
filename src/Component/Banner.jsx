@@ -22,6 +22,7 @@ const Banner = () => {
         const result = await response.json();
         const item = result.data[0];
         setImageUrl(
+          // disini saya tidak bisa mekases gambar dari be , namun jika bisa dia akan memunculkan gambar ber , jika tidak dia akan memunculkan gambar saya
           item?.medium_image?.url ||
             "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fit=crop&w=1400&q=80"
         );
